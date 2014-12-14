@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+  head
+    title= title
+    link(href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css", rel="stylesheet")
+    link(href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/lumen/bootstrap.min.css", rel="stylesheet")
+    link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", rel="stylesheet")
+    link(href="public/static/style.css", rel="stylesheet")
+  body
+    .container
+      .row
+        .col-xs-12
+          h1 Jade - node template engine
+          if youAreUsingJade
+            p You are amazing
+          else
+            p Get on it!
+          p.
+            penis.
+          a.btn.btn-primary
+            i.fa.fa-film
+            holy shit
+    script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js")
